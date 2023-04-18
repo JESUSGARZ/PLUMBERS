@@ -1,0 +1,13 @@
+.card__container{
+    width: 370px;
+    margin: 25px;
+    padding: 15px;
+    text-align: start;
+    margin: 0 25px;
+
+}
+.card__container img {
+    width: 350px;
+    height: 350px;
+   
+}

@@ -1,0 +1,8 @@
+.video__container {
+    width: 500px;
+    height: 300px;
+}
+.video__container video {
+    width: 420px;
+    height: 300px;
+}

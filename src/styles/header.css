@@ -1,0 +1,29 @@
+.container {
+    background-color: #1d63b9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+}
+.container img {
+    background-color: white;
+    margin: 5px 0 0 15px;
+    width: 280px;
+    align-self: flex-start;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+
+}
+.container div {
+    margin-right: 25px;
+}
+.phone__container {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.phone__number {
+    margin-left: 15px;
+}
