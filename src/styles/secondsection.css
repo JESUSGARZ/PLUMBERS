@@ -13,3 +13,24 @@
 .secondSection__container h2{
     text-align: start;
 }
+
+@media (max-width: 630px) {
+.secondSection__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+.secondSection__container div{
+    margin-bottom: 25px;
+}
+.secondSection__container div p{
+    width: 90%;
+    padding:15px;
+}
+
+.secondSection__container h2{
+    margin: 15px;
+}
+
+}

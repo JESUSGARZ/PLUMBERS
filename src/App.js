@@ -15,7 +15,7 @@ const wpLink = 'https://wa.me/573117284983';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header/>
       <NavBar/>
       <MainSection /> 
@@ -24,7 +24,7 @@ function App() {
       <ThirdSection />
       <Footer/>
       <Icon image = {image} url= {wpLink}/>
-    </div>
+    </>
   );
 }
 

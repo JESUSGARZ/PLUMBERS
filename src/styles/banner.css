@@ -27,3 +27,27 @@
 .banner__container h2 strong {
     font-size: 33px;
 }
+
+@media (max-width: 630px) {
+    .banner__container{
+        height: 100vh;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    }
+    .banner__container div {
+        width: 90%;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .banner__container div video {
+        width: 110%;
+        margin-top: 25px;
+    }
+    .banner__container h2 strong {
+        font-size: 33px;
+    }
+}

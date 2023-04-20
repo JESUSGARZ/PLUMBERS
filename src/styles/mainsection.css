@@ -66,3 +66,18 @@
     justify-content: center;
     align-items:center;
 }
+
+@media (max-width: 630px) {
+
+    .main-section__container {
+        width:100% ;
+        font-size: 21px;
+        font-weight: 600;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .main-section__title {
+        margin-bottom: 25px;
+    }
+}
