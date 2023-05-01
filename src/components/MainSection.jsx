@@ -15,8 +15,8 @@ const MainSection = () => {
 return (
 <section className='main-section__container ' id='main-section'>
     <div className='main-section__title'>
-        <h1>Destape Cañerias <strong>24</strong> Horas</h1>
-        <p>REVISIÓN GRATUITA</p>
+        <h1>Turning great visions into projects </h1>
+        <p>LET'S MAKE IT REAL</p>
     </div>
     <div className='main-section__check '>
         
@@ -37,7 +37,7 @@ return (
                 <span>Cotizamos Antes de Realizar el Trabajo</span>
             </div>
             <div className='buttons__container'>
-                <CtaButton   icon= {wp} onClick = {whatsaap} text = "Cotizar Ahora" />
+                <CtaButton    onClick = {whatsaap} text = "Get a Quote" />
             </div>  
     </div>
     

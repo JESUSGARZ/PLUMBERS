@@ -44,7 +44,7 @@ const ThirdSection = () => {
   return (
     <section className='ThirdSection__container'id='third-section' >
         <div>
-            <h2>Nuestros Servicios</h2>
+            <h2>Our <strong>Service</strong></h2>
             <div className='cards__container'>
                 {services.map((service) => {
                     return <Card title={service.title} description={service.description} url={service.url}/>

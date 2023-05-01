@@ -11,7 +11,7 @@ import ThirdSection from './components/ThirdSection';
 import Banner from './components/Banner';
 
 
-const wpLink = 'https://wa.me/573117284983';
+const wpLink = 'https://wa.me/12404185291';
 
 function App() {
   return (

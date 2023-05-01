@@ -7,10 +7,10 @@ const NavBar = () => {
     <div className='navbar__container'>
         <nav>
             <ul>
-                <li><a href='#main-section'>Inicio</a></li>
-                <li><a href='#third-section'>Servicios</a></li>
-                <li><a href='#second-section'>Nosotros</a></li>
-                <li><a href='#footer'>Contacto</a></li>
+                <li><a href='#main-section'>HOME</a></li>
+                <li><a href='#third-section'>SERVICES</a></li>
+                <li><a href='#second-section'>ABOUT US</a></li>
+                <li><a href='#footer'>CONTACT</a></li>
             </ul>
         </nav>
     </div>

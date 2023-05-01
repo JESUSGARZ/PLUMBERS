@@ -1,8 +1,17 @@
 .ThirdSection__container{
     width: 100%;
     height: fit-content;
-    
 }
+
+.ThirdSection__container div h2 {
+   width: 250px;
+   margin: 15px auto;
+   font-size: 30px;
+}
+.ThirdSection__container strong {
+    color: #61c202;
+}
+
 .cards__container {
     display: flex;
     flex-wrap: wrap;

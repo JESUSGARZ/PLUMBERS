@@ -10,8 +10,18 @@
     width: 450px;
     text-align: justify;
 }
+.secondSection__container div div {
+    display: flex;
+    width: 100%;
+}
 .secondSection__container h2{
     text-align: start;
+    font-size: 30px;
+}
+
+.secondSection__container h2:nth-child(2){
+    color: #61c202;
+    margin-left: 15px;
 }
 
 @media (max-width: 630px) {

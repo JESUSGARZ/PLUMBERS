@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/ctabutton.css';
 
-const wpLink = 'https://wa.me/573117284983';
+const wpLink = 'https://wa.me/12404185291';
 
 
 const CtaButton = (props) => {

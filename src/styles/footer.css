@@ -1,5 +1,5 @@
 footer {
-    background-color: #1d63b9;
+    background-color: #282828;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -54,7 +54,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ff7d15;
+    background-color: #282828;
     color: white;
     height: 50px;
     

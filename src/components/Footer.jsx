@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://wa.me/573117284983" className='socialmedia' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} size="2xl" style={{color: "#ffffff",}} /></a>
       </div>
       <div className='services__container'>
-        <h3>Servicios</h3>
+        <h3>Our Service</h3>
           <p>Plomeria</p>
           <p>Destape de cañerias</p>
           <p>Sonda eléctrica</p>
@@ -29,14 +29,14 @@ const Footer = () => {
           <p>Pisos en cpvc</p>
       </div>
       <div className='contact__container'>
-        <h3>Contacto</h3>
+        <h3>Get In Touch</h3>
           <div className='contact__number'>
             <FontAwesomeIcon icon={faPhone} size='lg' style={{color: "#ffffff",}} />
-            <p>311-728-4983</p>
+            <p>240-418-5291</p>
           </div>
           <div className='contact__email'>
             <FontAwesomeIcon icon={faWhatsapp} size="lg" style={{color: "#ffffff",}} />
-            <p>311-728-4983</p>
+            <p>240-418-5291</p>
           </div>
           <div className='contact__email'>
             <FontAwesomeIcon icon={faEnvelope} size="lg" style={{color: "#ffffff",}} />
@@ -45,7 +45,7 @@ const Footer = () => {
       </div>     
     </footer>
     <div className='copyrigth'>
-      <p>© 2023 - Plumbers. Creado por Plumbers Todos los derechos Reservados.</p>
+      <p>© 2023 - Powered by Carlo's Company </p>
     </div>
     </>
   )

@@ -4,7 +4,7 @@
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.6)
     ),
-    url('../utils/techo.jpg');
+    url('../utils/construction/carretilla.jpg');
     color: white;
     width: 100%;
     height: 500px;
@@ -26,6 +26,7 @@
 }
 .banner__container h2 strong {
     font-size: 33px;
+    color: #61c202;
 }
 
 @media (max-width: 630px) {
