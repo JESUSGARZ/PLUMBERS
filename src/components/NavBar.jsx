@@ -1,9 +1,11 @@
 import React from 'react';
 import '../styles/navbar.css'
+import HamburgerMenu from './HamburgerMenu';
 
 
 const NavBar = () => {
   return (
+    <>
     <div className='navbar__container'>
         <nav>
             <ul>
@@ -14,6 +16,10 @@ const NavBar = () => {
             </ul>
         </nav>
     </div>
+    <div className= 'hamburguer__menu'>
+      <HamburgerMenu />
+    </div>
+    </>
   )
 }
 

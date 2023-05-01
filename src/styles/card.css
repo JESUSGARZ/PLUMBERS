@@ -9,5 +9,10 @@
 .card__container img {
     width: 350px;
     height: 350px;
-   
+}
+
+@media (max-width: 630px) {
+    .card__container{
+        padding: 15px;
+    }
 }
