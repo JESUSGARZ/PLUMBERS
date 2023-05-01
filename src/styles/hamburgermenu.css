@@ -34,6 +34,7 @@
     }
     .nav_items.open {
         transform: translateX(0) !important;
+        z-index: 1;
     }
     .nav_toggle {
         display: flex;
