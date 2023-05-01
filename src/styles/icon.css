@@ -11,3 +11,12 @@
     box-shadow: 0 4px 16px rgb(184, 201, 212);
     transition: all 0.2s ease;
 }
+
+
+@media (max-width: 630px) {
+    .icon {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+    }
+}

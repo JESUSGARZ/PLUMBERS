@@ -71,7 +71,7 @@
 
     .main-section__container {
         width:100% ;
-        font-size: 21px;
+        font-size: 18px;
         font-weight: 600;
         text-align: center;
         flex-direction: column;
@@ -79,5 +79,21 @@
     }
     .main-section__title {
         margin-bottom: 25px;
+    }
+    .main-section__check {
+        padding-left: 45px;
+    }
+
+    
+    .main-section__item span{
+        font-size: 15px;
+    }
+    .main-section__item svg{
+        width: 18px;
+    }
+    .main-section__item {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
     }
 }

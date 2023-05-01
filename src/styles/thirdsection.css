@@ -17,3 +17,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+@media (max-width: 630px) {
+.ThirdSection__container div h2 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    }
+    .ThirdSection__container div strong {
+        margin-left: 10px;
+        }
+}

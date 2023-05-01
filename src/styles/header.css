@@ -43,11 +43,16 @@
     margin-left: 15px;
 }
 @media (max-width: 630px) {
-
-    .container img{
-        width: 180px;
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 18px;
+        height: 100px;
     }
-    .container div {
-        display: none;
+    .entry__line {
+        padding: 5px;
+    }
+    .entry__line p  {
+        text-align: center;
     }
 }
